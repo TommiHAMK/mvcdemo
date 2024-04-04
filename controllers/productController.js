@@ -11,7 +11,7 @@ const Product = require('../models/Product');
 
 // home root
 const getHome = (req,res) => {
-    res.send('My MVC App!!!');
+    res.send('My MVC App using Cyclic');
 }
 
 // productDetails, get one product
